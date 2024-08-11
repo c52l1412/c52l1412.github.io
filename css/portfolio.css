@@ -1,0 +1,194 @@
+body, div, p {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.iphone-background {
+    background: linear-gradient(to bottom, rgb(73, 151, 220), rgb(82, 99, 193));
+    color: white;
+    font-size: 2vh;
+}
+
+.iphone-box {
+    width: 80%;
+    /* background-color: orange; */
+    margin: auto;
+}
+
+.iphone-content {
+    float: left;
+    width: 50%;
+    padding-top: 100px;
+}
+
+.iphone-content img {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.portfolio-button {
+    margin-top: 20px;
+    background-color: rgb(68,68,68);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.portfolio-button:hover {
+    background-color: coral;
+}
+
+.middle-content {
+    text-align: center;
+    padding: 30px;
+}
+
+.offer-background {
+    background-color: rgb(78, 97, 192);
+    padding: 30px;
+    text-align: center;
+}
+
+.offer-box {
+    width: 80%;
+    /* background-color: orange; */
+    margin: auto;
+}
+
+.offer-content {
+    float: left;
+    padding-top: 50px;
+    width: 25%;
+}
+
+.offer-content i {
+    background-color: white;
+    color: rgb(78, 97, 192);
+    font-size: 80px;
+    width: 100px;
+    height: 90px;
+    border-radius: 100px;
+    padding: 15px;
+    padding-top: 30px;
+}
+
+.do-background {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.do-box {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.do-content {
+    float: left;
+    width: 50%;
+}
+
+.do-content img {
+    display: block;
+    width: 100%;
+}
+
+.do-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(0,0,0,0.5); */
+    border: 0px solid white;
+    transition: border 0.5s;
+    z-index: 1;
+}
+
+.do-overlay:hover {
+    border: 30px solid white;
+}
+
+.do-text {
+    position: absolute;
+    text-align: left;
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.foot-background {
+    padding: 30px;
+    text-align: center;
+}
+
+.foot-box {
+    width: 20%;
+    margin: auto;
+    /* background-color: orange; */
+}
+
+.foot-content {
+    float: left;
+    width: 33%;
+}
+
+.foot-content i {
+    background-color: rgb(78, 97, 192);
+    color: white;
+    font-size: 40px;
+    width: 45px;
+    height: 40px;
+    border-radius: 100px;
+    padding: 15px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .iphone-content {
+        float: none;
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        font-size: 3vh;
+    }
+
+    .iphone-content img {
+        display: block;
+        width: 80%;
+        margin: auto;
+        margin-top: -60px;
+    }
+
+    .offer-content {
+        float: left;
+        padding-top: 50px;
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .foot-content i {
+        background-color: rgb(78, 97, 192);
+        color: white;
+        font-size: 15px;
+        width: 10px;
+        height: 10px;
+        border-radius: 100px;
+        padding: 10px;
+    }
+
+    .do-content {
+        float: left;
+        width: 100%;
+    }
+}
