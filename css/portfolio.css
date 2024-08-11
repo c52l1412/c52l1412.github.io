@@ -191,4 +191,8 @@ body, div, p {
         float: left;
         width: 100%;
     }
+    
+    .foot-box {
+        width: 30%;
+    }
 }
